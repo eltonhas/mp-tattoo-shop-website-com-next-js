@@ -13,7 +13,7 @@ import { Header } from '@/components/header'
 const inter = Inter({
   subsets: ['latin'],
   style: 'normal',
-  weight: ['400', '900'],
+  weight: ['400', '700', '900'],
   variable: '--font-inter',
 })
 const londrinaSolid = LondrinaSolid({
@@ -45,7 +45,7 @@ export default function RootLayout({
         className={`${inter.variable} ${londrinaSolid.variable} ${islandMoments.variable} bg-background-color text-typography`}
       >
         <Header />
-        <div className="relative w-full min-w-72 max-w-7xl px-8 font-sans md:mx-auto md:px-8">
+        <div className="relative w-full min-w-72 max-w-7xl pl-8 font-sans md:mx-auto md:px-8">
           {children}
         </div>
         <Footer />

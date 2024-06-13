@@ -20,6 +20,7 @@ const config: Config = {
         'background-color': '#191919',
         'footer-background': '#161616',
         'footer-text': '#767676',
+        'bg-text': '#212121',
       },
     },
   },
