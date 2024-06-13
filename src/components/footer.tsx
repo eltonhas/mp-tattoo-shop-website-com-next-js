@@ -4,7 +4,7 @@ import Whatsapp from '@/assets/whatsapp.svg'
 
 export function Footer() {
   return (
-    <footer className="absolute bottom-0 w-full bg-footer-background px-8 py-5 font-sans text-xs text-footer-text">
+    <footer className="absolute bottom-0 w-full bg-footer-background px-8 py-5 font-sans text-xs text-footer-text md:px-8">
       <div className="flex w-full max-w-7xl items-center justify-between md:mx-auto md:justify-start md:gap-3">
         <div className="flex flex-col md:flex-row md:items-center md:gap-3">
           <p>Sandro Luz Tattoo Shop</p>

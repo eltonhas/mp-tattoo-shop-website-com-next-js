@@ -45,7 +45,7 @@ export default function RootLayout({
         className={`${inter.variable} ${londrinaSolid.variable} ${islandMoments.variable} bg-background-color text-typography`}
       >
         <Header />
-        <div className="relative w-full min-w-72 max-w-7xl px-8 md:mx-auto">
+        <div className="relative w-full min-w-72 max-w-7xl px-8 font-sans md:mx-auto md:px-8">
           {children}
         </div>
         <Footer />
