@@ -8,6 +8,7 @@ import {
 } from 'next/font/google'
 
 import { Footer } from '@/components/footer'
+import { Header } from '@/components/header'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -43,7 +44,8 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${londrinaSolid.variable} ${islandMoments.variable} bg-background-color text-typography`}
       >
-        <div className="relative mt-10 w-full min-w-72 max-w-7xl px-8 md:mx-auto">
+        <Header />
+        <div className="relative w-full min-w-72 max-w-7xl px-8 md:mx-auto">
           {children}
         </div>
         <Footer />
