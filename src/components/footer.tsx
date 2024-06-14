@@ -13,10 +13,15 @@ export function Footer() {
         </div>
 
         <div className="size-1 rounded-full bg-brand-color" />
-        <div className="flex items-center gap-0.5">
+        <a
+          href="https://wa.me/5579999999999"
+          className="flex items-center gap-0.5"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image src={Whatsapp} className="size-4" alt="whatsapp" />
           <p>(+55 11) 99999 9999</p>
-        </div>
+        </a>
       </div>
     </footer>
   )

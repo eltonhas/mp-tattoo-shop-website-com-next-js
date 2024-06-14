@@ -31,10 +31,15 @@ export function LinkNavigation({
         {title}
       </Link>
       {contact && (
-        <p className="hidden text-xs md:flex md:justify-end">
+        <a
+          href="https://wa.me/5579999999999"
+          target="_blank"
+          className="hidden text-xs md:flex md:justify-end"
+          rel="noreferrer"
+        >
           <Image src={Whatsapp} className="size-4" alt="whatsapp" />
           {contact}
-        </p>
+        </a>
       )}
     </div>
   )
