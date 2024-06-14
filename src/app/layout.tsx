@@ -13,7 +13,7 @@ import { Header } from '@/components/header'
 const inter = Inter({
   subsets: ['latin'],
   style: 'normal',
-  weight: ['400', '700', '900'],
+  weight: ['200', '400', '700', '900'],
   variable: '--font-inter',
 })
 const londrinaSolid = LondrinaSolid({
