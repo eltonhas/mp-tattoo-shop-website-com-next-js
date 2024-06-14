@@ -38,7 +38,7 @@ export default function About() {
       <Image
         src={Man}
         alt="Sandro Luz"
-        className="h-96 w-full object-scale-down md:min-h-[calc(100vh-200px)] md:object-cover"
+        className="h-96 w-full object-scale-down md:min-h-[calc(100vh-200px)] md:object-contain"
       />
     </main>
   )
